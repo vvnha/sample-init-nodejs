@@ -1,6 +1,6 @@
 // npm install express nodemon body-parser cors dotenv convict http joi lodash morgan mongoose
 const http = require('http');
-const app = require('./backend/app');
+const app = require('./src/app');
 
 const PORT = process.env.port || 3000;
 
